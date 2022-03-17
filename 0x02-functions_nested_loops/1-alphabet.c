@@ -1,20 +1,20 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * print_alphabet - print alphabert lowercase
+ * print_alphabet - print alphabet lowercase
  *
- * Return: nothing
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-char letter; /*Decarling statement*/
+char alphabet;
 
-/*for letter*/
-for (letter = 'a'; letter <= 'z'; letter++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(letter);/*print letter*/
+_putchar(alphabet);
 }
 
-_putchar('\n'); /*new line*/
+_putchar('\n');
 
 }

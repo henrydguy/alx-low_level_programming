@@ -1,10 +1,12 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * _isalpha - Returns 1 if c is a letter, lowercase or uppercase
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
  *@c: The int to print
- * Return: Returns 0 otherwise
+ * Return: Always 0.
  */
+
 int _isalpha(int c)
 
 {
